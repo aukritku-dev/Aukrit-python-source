@@ -39,6 +39,7 @@ print("Full name:", full_name)
 
 # String length
 print("Length of full name:", len(full_name))
+# len ถามความยาว str
 
 # Exercise 4: Numbers and Arithmetic
 # Create two numbers and perform basic operations
@@ -48,9 +49,9 @@ num2 = 3
 print("Addition:", num1 + num2)
 print("Subtraction:", num1 - num2)
 print("Multiplication:", num1 * num2)
-print("Division:", num1 / num2)
-print("Integer Division:", num1 // num2)
-print("Remainder (Modulo):", num1 % num2)
+print("Division:", num1 / num2) # int / int = float
+print("Integer Division:", num1 // num2) # int // int = int
+print("Remainder (Modulo):", num1 % num2) #เอาเศษ
 print("Power:", num1 ** num2)
 
 # Exercise 5: Variable Reassignment
@@ -77,16 +78,16 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
-favorite_color = 
+favorite_color = "Blue"
 
 # Integer variable with the current year
-current_year = 
+current_year = 2026
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 
+favorite_number = 4.00
 
 # Boolean variable indicating if you like pizza
-likes_pizza = 
+likes_pizza = True
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)
