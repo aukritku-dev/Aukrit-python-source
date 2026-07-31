@@ -3,7 +3,7 @@ empty_tuple = ()
 another_empty_tuple = tuple()
 
 # Tuple with values
-coordinates = (10, 20)
+coordinates = (10, 20) 
 rgb_color = (255, 128, 0)
 mixed_tuple = (1, "hello", 3.14, True)
 

@@ -3,7 +3,7 @@ empty_list = []
 another_empty_list = list()
 
 # List with initial values
-fruits = ["apple", "banana", "orange"]
+fruits = ["apple", "banana", "orange", "grape"]
 numbers = [1, 2, 3, 4, 5]
 mixed_list = [1, "hello", 3.14, True]
 

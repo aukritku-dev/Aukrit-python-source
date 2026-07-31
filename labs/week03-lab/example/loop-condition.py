@@ -9,6 +9,10 @@
 # demo_for_basic.py
 print("=== Demo 1: Basic For Loop ===")
 
+print(range(5))# [0,1,2,3,4]
+print(range(1,5))# [1,2,3,4]
+print(range(1,5,3))# [1,3]
+
 # Loop ผ่านตัวเลข
 print("นับจาก 1 ถึง 5:")
 for i in range(1, 6):
@@ -67,6 +71,18 @@ for num in range(1, 11):
         print(f"{num} เป็นเลขคู่")
     else:
         print(f"{num} เป็นเลขคี่")
+
+'''ผลรัน 
+1 เป็นเลขคี่
+2 เป็นเลขคู่
+3 เป็นเลขคี่
+4 เป็นเลขคู่
+5 เป็นเลขคี่
+6 เป็นเลขคู่
+7 เป็นเลขคี่
+8 เป็นเลขคู่
+9 เป็นเลขคี่
+10 เป็นเลขคู่'''
 
 print("\nDemo เกมทายตัวเลข (จำลอง):")
 import random
