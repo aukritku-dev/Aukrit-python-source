@@ -1,3 +1,4 @@
+#data type in python ==> int,float,bool,str
 # Python String Examples Based on Course Slides
 # Complete working examples with explanations
 
