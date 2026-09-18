@@ -19,7 +19,7 @@ try:
     num1 = float(input("ตัวเลขที่ 1: "))
     
     num2 = float(input("ตัวเลขที่ 2: "))
-    
+
     operator = input("เครื่องหมาย (+ - * /): ")
     
     if operator not in ['+', '-', '*', '/']:
@@ -38,10 +38,10 @@ try:
     
     print(f"\nผลลัพธ์: {num1} {operator} {num2} = {result}")
 
-except ValueError as error:
-    print(f"\nข้อผิดพลาด: ตัวเลขไม่ถูกต้อง")
-except ZeroDivisionError as error:
-    print(f"\n{error}")
+except ValueError:
+    print("\nต้องเป็นตัวเลขเท่านั้น")
+except ZeroDivisionError:
+    print("ไม่สามารถหารด้วยศูนย์ได้")
 
 finally:
     print("จบการทำงาน")
