@@ -32,8 +32,6 @@ try:
     elif operator == '*':
         result = num1 * num2
     elif operator == '/':
-        if num2 == 0:
-            raise ZeroDivisionError("ไม่สามารถหารด้วยศูนย์ได้")
         result = num1 / num2
     
     print(f"\nผลลัพธ์: {num1} {operator} {num2} = {result}")
