@@ -1,3 +1,14 @@
+"""
+programming
+1) structured program ==> c,python
+2) object-oriented program (OOP) ==> java,c#,python
+
+"""
+"""
+เราออกแบบโปรเเกรม ของเราในclass
+เขียนโปรเเกรม เพื่อเเก้ปัญหา ต้องมีข้อมูล (data),การกรพทำ(method)
+"""
+
 class ClassName:
     """Class docstring"""
     
