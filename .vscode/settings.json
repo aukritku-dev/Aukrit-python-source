@@ -11,10 +11,11 @@
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.acceptSuggestionOnEnter": "on",
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": false,
         "markdown": false,
-        "scminput": false
+        "scminput": false,
+        "python": true
     },
     // Prevents inline suggestions from appearing.
     "editor.inlineSuggest.enabled": false,
